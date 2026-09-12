@@ -1,11 +1,10 @@
 ---
 name: google-drive-files
 description: How to read and write files in Google Drive through the Drive connector, where several tools do not do what their names suggest. Use whenever a task involves reading, creating, editing, listing or organising files in Google Drive — especially config or data files an agent owns, or markdown with YAML frontmatter. Covers a connector with no content-update tool, a reader that silently corrupts frontmatter, and search operators that match more than they appear to.
+version: 1.0.1
 ---
 
 # Working with files in Google Drive
-
-Version 1.0.0
 
 Everything here was verified by testing the connector, not inferred from tool
 descriptions. Each behaviour fails **silently** when you get it wrong — you get

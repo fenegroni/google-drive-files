@@ -21,9 +21,10 @@ Download the latest release, or this repo as a ZIP, and upload it as a skill.
 
 ## Versioning
 
-[Semantic Versioning](https://semver.org/). The version is stated at the top of
-`SKILL.md`, so an installed copy can tell you which one it is. A skill's interface
-is its guidance, so the numbers mean:
+[Semantic Versioning](https://semver.org/). The version is declared in the `version`
+field of `SKILL.md`'s frontmatter, which the skill loader reads, so an
+installed copy can tell you which one it is. A skill's interface is its
+guidance, so the numbers mean:
 
 - **MAJOR** — guidance changes such that following the old version would now be
   wrong. The likeliest cause: the connector gains a content-update tool, and

@@ -5,6 +5,13 @@ All notable changes to this skill. The format follows
 [Semantic Versioning](https://semver.org/). See the README for what a version
 number means for a skill.
 
+## [1.0.1] - 2026-09-12
+
+### Changed
+
+- The version is declared in the `version` frontmatter field, which the skill
+  loader reads, instead of a line in the body. One place rather than two.
+
 ## [1.0.0] - 2026-09-10
 
 ### Added
@@ -22,4 +29,5 @@ number means for a skill.
   longer holds.
 - The single-anchor-folder pattern, with the id owned by the project.
 
+[1.0.1]: https://github.com/fenegroni/google-drive-files/releases/tag/v1.0.1
 [1.0.0]: https://github.com/fenegroni/google-drive-files/releases/tag/v1.0.0
